@@ -1,0 +1,24 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+}
+
+
+.el-step__title {
+    font-size: 13px;
+}
+
+/*控制富文本的最小高度*/
+.ql-editor{
+    min-height: 300px;
+}
+
+.ql-editor.ql-blank::before {
+    content: '在此输入商品的详细描述...' !important;
+}
+
